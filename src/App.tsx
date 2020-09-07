@@ -21,7 +21,6 @@ function App() {
   const [gameOveer, setGameOveer] = useState(true);
 
   const startTrivia = async () => {
-    console.log('calling')
     setLoading(true);
     setGameOveer(false);
 
