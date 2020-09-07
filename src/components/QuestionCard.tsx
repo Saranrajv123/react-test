@@ -11,6 +11,7 @@ type Props = {
 };
 
 const QuestionCard: React.FC<Props> = (props) => {
+  console.log('props :>> ', props);
   return (
     <Fragment>
       <p className="num">
